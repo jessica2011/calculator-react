@@ -26,3 +26,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#showNumber{
+  border: 1px solid black;
+  height: 10vh;
+  width: 40%;
+}

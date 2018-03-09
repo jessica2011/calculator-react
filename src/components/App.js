@@ -3,6 +3,10 @@ import React, {Component} from 'react';
 import ShowResult from './ShowResult';
 import HistoryList from './HistoryList';
 import ContentOperation from './ContentOperation';
+// importando API
+import Api from  './Api';
+
+
 
 class App extends Component {
   render() {
