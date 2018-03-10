@@ -5,7 +5,6 @@ class History extends Component {
   render() {
     return (
       <div>
-        <h1>Prueba History</h1>
       </div>
     );
   }

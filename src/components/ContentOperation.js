@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 // estilos para la calculadora
-// import './App.css';
+import './css/ContentOperation.css';
 import BoxNumber from './BoxNumber';
 import BoxOperation from './BoxOperation';
 
 class ContentOperation extends Component {
   render() {
     return (
-      <div>
-        <BoxNumber/>
-        <BoxOperation/>
+      <div className="boxCalculator row">
+        <div className="col-9">
+          <BoxNumber />
+        </div>
+        <div className="col-3">
+          <BoxOperation />
+        </div>
       </div>
     );
   }

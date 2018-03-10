@@ -6,7 +6,7 @@ import Operation from './Operation';
 class BoxOperation extends Component {
   render() {
     return (
-      <div>
+      <div className="">
         <Operation/>
       </div>
     );

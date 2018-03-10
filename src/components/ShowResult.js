@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/ShowResul.css';
 
 class ShowResult extends Component {
   render() {
     return (
       <div>
-        <h1>Prueba Show</h1>
-          <div id="showNumber"></div>
+        <div >
+        <form id="showNumber">
+          <output name="text"></output>
+        </form>
+        </div>
       </div>
     );
   }

@@ -6,7 +6,7 @@ import Number from './Number';
 class BoxNumber extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <Number/>
       </div>
     );
