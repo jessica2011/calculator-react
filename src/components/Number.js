@@ -10,6 +10,7 @@ class Number extends Component {
         <div className="box-number">{arrayNumber.map((elem, i) =>{
           return <button type="button" class="btn btn-info btn-number" key={i}>{elem}</button>
         })}</div>
+        <button type="button" class="col-10 btn btn-outline-danger">Borrar</button>
       </div>
     );
   }
