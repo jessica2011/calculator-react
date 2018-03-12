@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
+import PropTypes from "prop-types";
 // estilos para la calculadora
 // import './App.css';
+import { onClickNumber } from '../actions';
 import Number from './Number';
 
-class BoxNumber extends Component {
-  render() {
-    return (
-      <div className="container">
-        <Number/>
-      </div>
-    );
-  }
+
+const BoxNumber = ({onClickNumber}) => {
+  return (
+    <div className="col-9">
+      <Number onClickNumber={onClickNumber}/>
+    </div>
+  )
 }
+
+BoxNumber.propTypes = {
+  onClickNumber: PropTypes.func.isRequired
+}
+
 
 export default BoxNumber;

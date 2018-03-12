@@ -7,7 +7,7 @@ class BoxOperation extends Component {
   render() {
     return (
       <div className="">
-        <Operation/>
+        <Operation />
       </div>
     );
   }

@@ -3,13 +3,12 @@ import './css/ShowResult.css';
 
 class ShowResult extends Component {
   render() {
+    const {inputValue, resultValue, showingResult} = this.props;
     return (
-      <div>
-        <div >
+      <div className="col-12">
         <form className="showNumber text-center">
-          <output name="text"></output>
+          <output name="text">{inputValue}</output>
         </form>
-        </div>
       </div>
     );
   }
